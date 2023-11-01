@@ -5,13 +5,15 @@
     Uma cidade possui 100 mil habitantes e cresce 3% ao ano. Calcule e apresente quantos anos serão necessários para que a população da cidade duplique.
     Neste exemplo, para a cidade atingir 200 mil habitantes, serão necessários 24 anos.
     */
-
-    //Entrada
-
-
-    //Processamento
-
-
-    //Saída
+   var crescimento = 1;
+   for(var i=0;i<=23;i++){
+    if (i==2){
+        crescimento += 50000;
+        }else{
+            crescimento *= 1.07;
+            
+    }
+   }
+   console.log("Para chegar a 200 mil habitantes em "+crescimento+" anos");
 
 </script>

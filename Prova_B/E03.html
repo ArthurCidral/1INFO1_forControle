@@ -9,13 +9,17 @@
     - Números pares: 2, 4
     - Números ímpares: 1, 3, 5
     */
-
-    //Entrada
-
-
-    //Processamento
-
-
-    //Saída
+   let num = prompt("Informe um número");
+   let par = [];
+   let impar = [];
+   for(let i=0;i<=num;i++){
+    if (i % 2 == 0){
+        par.push(i);
+        }else{
+            impar.push(i);
+    }
+   }
+   console.log(`Números Pares: ${par}`);
+   console.log(`Números Impares: ${impar}`);
 
 </script>
